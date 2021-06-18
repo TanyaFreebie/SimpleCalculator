@@ -12,7 +12,7 @@ public class Main {
         secondNumber = 7;
         answer = 0;
         //Math Operator
-        String operator ="-";
+        String operator ="+";
 
         if(operator.equals("+")){
             answer = firstNumber + secondNumber;
