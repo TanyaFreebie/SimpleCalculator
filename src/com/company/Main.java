@@ -7,18 +7,24 @@ public class Main {
         int firstNumber;
         int secondNumber;
         int answer;
+
         //NUmber Initialized
         firstNumber = 5;
         secondNumber = 7;
         answer = 0;
+
         //Math Operator
-        String operator ="-";
+        String operator ="+";
 
         if(operator.equals("+")){
             answer = firstNumber + secondNumber;
         } else if(operator.equals("-")){
             answer = firstNumber - secondNumber;
-        }//assigment for x and /
+        } else if(operator.equals("x")) {
+            answer = firstNumber * secondNumber;
+        } else if(operator.equals("/")) {
+            answer = firstNumber / secondNumber;
+        }
 
         System.out.println(answer);
     }
